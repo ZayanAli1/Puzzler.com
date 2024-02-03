@@ -1,0 +1,99 @@
+
+ h1{
+        margin-left:10px;
+        }
+th{
+            color:rgba(255, 255, 255, 0.821);
+            padding-left:50px;
+            padding-top: 30px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:x-large
+}
+ th:hover{
+          transform:scale(1.2)  
+}
+img{
+    margin: 20px;
+}
+
+/*{
+    border: solid;
+}
+
+*/
+.menu{
+display: flex; 
+flex-direction: row;
+margin: -1rem -1rem -1rem -1rem  ;
+margin:darkslategrey;
+background-color: darkslategrey; }
+
+.bigbox{
+    display: flex
+}
+
+.textbox{
+    margin-top: 50px;
+    margin-left: 20px;
+    color:darkslategrey;
+    font-size:20px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.settings{
+    margin-left: auto;
+
+}
+
+a{
+    color:white;
+    text-decoration:none;
+
+}
+
+audio{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+.item {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.item img{
+    border-radius: 20px;
+    height: 200px;
+}
+
+.item:hover{
+    scale: 1.05;
+    opacity: 1;
+    color: black;
+    font-weight: bold
+}
+
+.overlay{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+.item:hover p{
+    scale:1.05;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+}
+
+.AllGames {
+    display: flex;
+    margin: 100px;
+    position: relative;
+    flex-wrap: wrap;
+}
